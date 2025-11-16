@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>superNeel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="cursor"></div>
+
+    <div id="nav">
+        <img id="logo" src="./logo.svg" alt="logo">
+        <div id="items">
+            <a href="#">Home</a>
+            <a href="#">Shop</a>
+            <a href="#">Cart</a>
+            <a href="#">Contact</a>
+        </div>
+    </div>
+
+    <div id="main">
+
+        <div id="page1">
+            <h1 class="animate__animated animate__jackInTheBox">DOMINATE<br>LIFE PROPERLY</h1>
+            <div id="video-container">
+                <div id="play">
+                    <img src="./playbtn.svg" alt="play button">
+                </div>
+                <video autoplay loop muted src="./video.mp4"></video>
+            </div>
+        </div>
+
+        <div id="page2">
+            <div id="elem1" class="elem">
+                <img src="./img1.jpg" alt="image1">
+                <div class="box"></div>
+            </div>
+            <div id="elem2" class="elem">
+                <img src="./img2.jpg" alt="image2">
+                <div class="box"></div>
+            </div>
+            <div id="elem3" class="elem">
+                <img src="./img3.jpg" alt="image3">
+                <div class="box"></div>
+            </div>
+        </div>
+
+        <div id="page3">
+            <div class="child" id="child1">
+                <img src="./product1.avif" alt="product1">
+            </div>
+            <div class="child" id="child2">
+                <img src="./product2.avif" alt="product2">
+            </div>
+            <div class="child" id="child3">
+                <img src="./product3.avif" alt="product3">
+            </div>
+            <div class="child" id="child4">
+                <img src="./product4.avif" alt="product4">
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"
+        integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
